@@ -1,0 +1,42 @@
+.popup{
+    background-color: rgba(50, 28, 28, 0.532);
+    border: 2px solid red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    display: none;
+}
+
+.popup .form-sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid green;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.popup .form-sign input{
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 2px solid rgb(58, 93, 58);
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-top: 7px;
+    width: 301px;
+    border-radius: 8px;
+}
+
+.close01{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+}
+
+.close01:hover{
+    color: rgb(86, 39, 39);
+}
