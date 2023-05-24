@@ -1,9 +1,14 @@
 let btpop=document.querySelector('.button-23');
 let x='aakash'
 
-let pop=document.querySelector('.popup');
 
+let heading='hello,This is Aakash,Fullstake Developer.'
+let desc=document.querySelector('.about-sec')
+
+
+let pop=document.querySelector('.popup');
 let close01=document.querySelector('.close01');
+let index=1
 
 if(pop.style.display='flex'){
     console.log(x)
@@ -19,16 +24,20 @@ if (pop.style.display='none'){
 
    
 
+const type_head=()=>{
+    let new_heading=heading.slice(0,index)
+    desc.innerText=new_heading
+    index>heading.length?index=1:index++
+    setTimeout(type_head,200)
+
+}
+type_head()
+
+
+
    
 
    
-// else{
-//     close01=addEventListener('click',closepop);
-//     function closepop(){
-//         pop.style.display='none';
-//     }
-
-// }
 
 
 
