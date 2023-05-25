@@ -1,6 +1,5 @@
 .popup{
     background-color: rgba(50, 28, 28, 0.532);
-    border: 2px solid red;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -17,7 +16,7 @@
     top: 35%;
     left: 40%;
 }
-.popup .form-sign input{
+/* .popup .form-sign input{
     box-sizing: border-box;
     font-size: 20px;
     border-radius: 2px solid rgb(58, 93, 58);
@@ -26,7 +25,7 @@
     padding-top: 7px;
     width: 301px;
     border-radius: 8px;
-}
+} */
 
 .close01{
     position: absolute;

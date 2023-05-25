@@ -25,11 +25,7 @@
 #logo span{
       margin-left:-5px ;
 }
-#headeleid ul li{
-    
-    margin: 10px;
-    
-}
+
 
 a{
     text-decoration: none;
@@ -97,15 +93,12 @@ a:hover{
     margin-top: 40px;
     height: 450px;
     width: 317px;
-    
-    border: 2px solid red;
-
 }
 
 .about-sec{
     max-width: 300px;
     overflow:hidden;
-    border: 2px solid green;
+    
     font-weight:700;
     font-size: 32px;
 }
@@ -118,7 +111,7 @@ a:hover{
 /* Third Section */
 
 .skills{
-    border: 2px solid blue;
+    
     position: relative;
     
 }
@@ -176,7 +169,7 @@ a:hover{
 }
 
 .bottoms{
-    border: 2px solid grey;
+    
     width: 700px;
     height: 500px;
     font-weight: 700;
@@ -184,7 +177,7 @@ a:hover{
     position: relative;
     padding-left: 100px;
     overflow: hidden;
-    box-shadow: 5px 10px 5px 12px rgb(130, 151, 158);
+    box-shadow: 7px 13px 11px 19px rgb(63, 82, 88),1px 11px 11px 1px rgbrgb(63, 78, 83)
 }
 
 .con{
@@ -207,6 +200,7 @@ a:hover{
 }
 
 .inpt{
+    font-size: 22px;
     max-width: 258px;
     text-align: center;
     line-height: 43px;
@@ -249,7 +243,11 @@ li{
     list-style: none;
 }
 
-
+ul li{
+    
+    margin: 10px;
+    
+}
 
 
 
